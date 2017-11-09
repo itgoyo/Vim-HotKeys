@@ -26,6 +26,7 @@ vim +num file: 从第num行开始；
 vim +/string file: 打开file，并将光标停留在第一个找到的string上。
 
 vim --remote file: 用已有的vim进程打开指定的文件。 如果你不想启用多个vim会话，这个很有用。但要注意， 如果你用vim，会寻找名叫VIM的服务器；如果你已经有一个gvim在运行了， 你可以用gvim --remote file在已有的gvim中打开文件。
+
 ###3. 文档操作
 
 :e file --关闭当前编辑的文件，并开启新的文件。 如果对当前文件的修改未保存，vi会警告。
